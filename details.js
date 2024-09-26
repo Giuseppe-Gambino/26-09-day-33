@@ -31,15 +31,13 @@ const getSingleImg = function () {
         <img src="${img.src.medium}" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">${img.alt}</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">${img.photographer}</li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <a href="${img.photographer_url}" class="card-link">photographer link</a>
+          <a href="pexels-start.html" class="card-link">back to home</a>
         </div>
     `;
 
